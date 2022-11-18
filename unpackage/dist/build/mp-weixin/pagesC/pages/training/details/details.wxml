@@ -1,0 +1,1 @@
+<view class="container"><view class="training_box"><view class="video"><video src="{{form.video}}" controls="{{true}}" object-fit="fill"></video></view></view><view>{{form.title}}</view><view>{{form.create_time}}</view><view></view><view>培训说明</view><view><rich-text nodes="{{form.content}}"></rich-text></view></view>

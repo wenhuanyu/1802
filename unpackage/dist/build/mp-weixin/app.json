@@ -1,0 +1,162 @@
+{
+  "pages": [
+    "pages/index/index/index",
+    "pages/user/user/user",
+    "pages/workbench/workbench/workbench",
+    "pages/index/details/details",
+    "pages/user/basic/basic",
+    "pages/user/set/set"
+  ],
+  "subPackages": [
+    {
+      "root": "pagesA",
+      "pages": [
+        "pages/audit/audit/audit",
+        "pages/afforestation/afforestation/afforestation",
+        "pages/afforestation/management/details/details",
+        "pages/afforestation/process/process",
+        "pages/afforestation/process/add/add",
+        "pages/afforestation/advance/advance",
+        "pages/afforestation/advanceList/advanceList",
+        "pages/afforestation/detail/detail",
+        "pages/afforestation/luru/luru",
+        "pages/afforestation/query/query",
+        "pages/afforestation/choose/choose",
+        "pages/afforestation/listDetail/listDetail",
+        "pages/afforestation/settlement/settlement",
+        "pages/afforestation/jiesuanDetail/jiesuanDetail",
+        "pages/afforestation/setting/setting",
+        "pages/afforestation/management/management",
+        "pages/afforestation/time/time",
+        "pages/afforestation/outsourcing/outsourcing",
+        "pages/afforestation/pinming/pinming",
+        "pages/afforestation/pinming/add/add",
+        "pages/afforestation/audit/audit",
+        "pages/afforestation/management/add/add",
+        "pages/afforestation/add/add",
+        "pages/afforestation/outsourcing/add/add",
+        "pages/fell/fell/fell",
+        "pages/fell/add/add",
+        "pages/fell/details/details",
+        "pages/fell/luru/luru",
+        "pages/fell/query/query",
+        "pages/summary/summary/summary",
+        "pages/baoxiao/baoxiao/baoxiao",
+        "pages/waibao/waibao/waibao",
+        "pages/audit/audit_details/audit_details",
+        "pages/workers/workers/workers",
+        "pages/complete/complete/complete",
+        "pages/baoxiao/reimbursement/reimbursement",
+        "pages/waibao/gongxu/gongxu",
+        "pages/waibao/zaolin/zaolin",
+        "pages/waibao/dingdan/dingdan",
+        "pages/workers/details/details",
+        "pages/workers/edit/edit",
+        "pages/baoxiao/transaction/transaction",
+        "pages/baoxiao/standby/standby",
+        "pages/baoxiao/transactionDetails/transactionDetails",
+        "pages/baoxiao/standbyDetails/standbyDetails",
+        "pages/baoxiao/reimbursementDetails/reimbursementDetails",
+        "pages/waibao/add/add",
+        "pages/waibao/gongxuAdd/gongxuAdd",
+        "pages/waibao/kanfa/kanfa",
+        "pages/waibao/kanfaAdd/kanfaAdd",
+        "pages/fell/setting/setting",
+        "pages/fell/pinming/pinming",
+        "pages/fell/pinming/add/add",
+        "pages/fell/management/management",
+        "pages/fell/management/add/add",
+        "pages/fell/management/details/details",
+        "pages/fell/process/process",
+        "pages/fell/process/add/add",
+        "pages/fell/price/price",
+        "pages/fell/price/add/add",
+        "pages/fell/equipment/equipment",
+        "pages/fell/equipment/add/add",
+        "pages/fell/outsourcing/outsourcing",
+        "pages/fell/time/time",
+        "pages/fell/listDetail/listDetail",
+        "pages/fell/jiesuanDetail/jiesuanDetail",
+        "pages/fell/settlement/settlement",
+        "pages/fell/jiesuanDetailTwo/jiesuanDetailTwo",
+        "pages/fell/jiesuanDetailThree/jiesuanDetailThree",
+        "pages/fell/audit/audit",
+        "pages/audit/audit_xiangqing/audit_xiangqing",
+        "pages/audit/account/account",
+        "pages/audit/reimbursementDetails/reimbursementDetails",
+        "pages/audit/standbyDetails/standbyDetails",
+        "pages/audit/transactionDetails/transactionDetails",
+        "pages/summary/jiesuanone/jiesuanone",
+        "pages/summary/advance/advance",
+        "pages/summary/advanceList/advanceList",
+        "pages/summary/jiesuantwo/jiesuantwo",
+        "pages/summary/jiesuanDetailTwo/jiesuanDetailTwo",
+        "pages/summary/jiesuanDetailThree/jiesuanDetailThree",
+        "pages/print/print",
+        "pages/fell/extract/extract",
+        "pages/fell/outsourcing/add/add",
+        "pages/signature/signature"
+      ],
+      "name": "管理员工作台分包"
+    },
+    {
+      "root": "pagesB",
+      "pages": [
+        "pages/login/login",
+        "pages/wage/wage/wage",
+        "pages/wage/detail/detail",
+        "pages/wage/deductions/deductions"
+      ],
+      "name": "我的分包"
+    },
+    {
+      "root": "pagesC",
+      "pages": [
+        "pages/payment/payment",
+        "pages/training/training/training",
+        "pages/training/details/details",
+        "pages/apply/apply/apply",
+        "pages/apply/details/details",
+        "pages/apply/add/add",
+        "pages/deliveryNote/deliveryNote",
+        "pages/deliveryNote/list/list",
+        "pages/mainDeliveryNote/mainDeliveryNote",
+        "pages/mainDeliveryNote/list/list"
+      ],
+      "name": "员工工作台分包"
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#4C9D57",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index/index",
+        "iconPath": "static/image/tab/index.png",
+        "selectedIconPath": "static/image/tab/index-active.png",
+        "text": "消息"
+      },
+      {
+        "pagePath": "pages/workbench/workbench/workbench",
+        "iconPath": "static/image/tab/center.png",
+        "selectedIconPath": "static/image/tab/center-active.png",
+        "text": "工作台"
+      },
+      {
+        "pagePath": "pages/user/user/user",
+        "iconPath": "static/image/tab/user.png",
+        "selectedIconPath": "static/image/tab/user-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

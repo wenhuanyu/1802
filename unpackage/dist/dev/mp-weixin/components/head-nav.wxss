@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flex_between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-column {
+  flex-direction: column;
+  justify-content: center;
+}
+.relative {
+  position: relative;
+}
+.bold {
+  font-weight: bold;
+}
+.fs24 {
+  font-size: 24rpx;
+}
+.fs26 {
+  font-size: 26rpx;
+}
+.fs28 {
+  font-size: 28rpx;
+}
+.fs30 {
+  font-size: 30rpx;
+}
+.fs32 {
+  font-size: 32rpx;
+}
+.mt-10 {
+  margin-top: 10rpx;
+}
+.mb-10 {
+  margin-bottom: 10rpx;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.ml-10 {
+  margin-left: 10rpx;
+}
+.ml-20 {
+  margin-left: 20rpx;
+}
+.mr-10 {
+  margin-right: 10rpx;
+}
+.mt-20 {
+  margin-top: 20rpx;
+}
+.mb-20 {
+  margin-bottom: 20rpx;
+}
+.mb-10 {
+  margin-bottom: 10rpx;
+}
+.ml-20 {
+  margin-left: 20rpx;
+}
+.mr-20 {
+  margin-right: 20rpx;
+}
+.mr-60 {
+  margin-right: 60rpx;
+}
+.ptb-n {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.cl {
+  color: #999999;
+}
+.tab_list {
+  width: 112rpx;
+  margin-right: 32rpx;
+  font-size: 28rpx;
+}
+.btna {
+  font-size: 36rpx;
+  width: 144rpx;
+  border-bottom: 8rpx solid #3966F5;
+}
+.wx-head-mod {
+  box-sizing: border-box;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.wx-head-mod-nav {
+  box-sizing: border-box;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wx-head-mod-nav-content {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: relative;
+}
+/* 文本区 */
+.wx-head-mod-nav-content-mian {
+  box-sizing: border-box;
+  height: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+/* 返回按钮 */
+.wx-head-mod-nav-content-back {
+  box-sizing: border-box;
+  width: 60rpx;
+  height: 100%;
+  /* background-color: aqua; */
+  position: absolute;
+  top: 0;
+  left: 32rpx;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.wx-head-mod-nav-content-back-img {
+  box-sizing: border-box;
+}
+

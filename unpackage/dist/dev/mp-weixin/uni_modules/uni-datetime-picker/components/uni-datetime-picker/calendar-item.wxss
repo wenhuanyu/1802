@@ -1,0 +1,174 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flex_between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-column {
+  flex-direction: column;
+  justify-content: center;
+}
+.relative {
+  position: relative;
+}
+.bold {
+  font-weight: bold;
+}
+.fs24 {
+  font-size: 24rpx;
+}
+.fs26 {
+  font-size: 26rpx;
+}
+.fs28 {
+  font-size: 28rpx;
+}
+.fs30 {
+  font-size: 30rpx;
+}
+.fs32 {
+  font-size: 32rpx;
+}
+.mt-10 {
+  margin-top: 10rpx;
+}
+.mb-10 {
+  margin-bottom: 10rpx;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.ml-10 {
+  margin-left: 10rpx;
+}
+.ml-20 {
+  margin-left: 20rpx;
+}
+.mr-10 {
+  margin-right: 10rpx;
+}
+.mt-20 {
+  margin-top: 20rpx;
+}
+.mb-20 {
+  margin-bottom: 20rpx;
+}
+.mb-10 {
+  margin-bottom: 10rpx;
+}
+.ml-20 {
+  margin-left: 20rpx;
+}
+.mr-20 {
+  margin-right: 20rpx;
+}
+.mr-60 {
+  margin-right: 60rpx;
+}
+.ptb-n {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.cl {
+  color: #999999;
+}
+.uni-calendar-item__weeks-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1px 0;
+  position: relative;
+}
+.uni-calendar-item__weeks-box-text {
+  font-size: 14px;
+  font-weight: bold;
+  color: #455997;
+}
+.uni-calendar-item__weeks-lunar-text {
+  font-size: 12px;
+  color: #333;
+}
+.uni-calendar-item__weeks-box-item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+.uni-calendar-item__weeks-box-circle {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background-color: #dd524d;
+}
+.uni-calendar-item__weeks-box .uni-calendar-item--disable {
+  cursor: default;
+}
+.uni-calendar-item--disable .uni-calendar-item__weeks-box-text-disable {
+  color: #D1D1D1;
+}
+.uni-calendar-item--isDay {
+  position: absolute;
+  top: 10px;
+  right: 17%;
+  background-color: #dd524d;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+.uni-calendar-item--extra {
+  color: #dd524d;
+  opacity: 0.8;
+}
+.uni-calendar-item__weeks-box .uni-calendar-item--checked {
+  background-color: #007aff;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 3px solid #fff;
+}
+.uni-calendar-item--checked .uni-calendar-item--checked-text {
+  color: #fff;
+}
+.uni-calendar-item--multiple .uni-calendar-item--checked-range-text {
+  color: #333;
+}
+.uni-calendar-item--multiple {
+  background-color: #F6F7FC;
+}
+.uni-calendar-item--multiple .uni-calendar-item--before-checked,
+.uni-calendar-item--multiple .uni-calendar-item--after-checked {
+  background-color: #409eff;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 3px solid #F6F7FC;
+}
+.uni-calendar-item--before-checked .uni-calendar-item--checked-text,
+.uni-calendar-item--after-checked .uni-calendar-item--checked-text {
+  color: #fff;
+}
+.uni-calendar-item--before-checked-x {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  box-sizing: border-box;
+  background-color: #F6F7FC;
+}
+.uni-calendar-item--after-checked-x {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  background-color: #F6F7FC;
+}
+

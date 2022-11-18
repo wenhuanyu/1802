@@ -1,0 +1,1 @@
+<view><view class="operate"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view><view class="item_box"><view class="item" style="font-size:30rpx;"><view class="flex"><view class="icon_title">{{"预支金额：￥"+item.per_amount}}</view></view><view><view>{{item.pre_time}}</view></view></view></view></view></block></view></view>

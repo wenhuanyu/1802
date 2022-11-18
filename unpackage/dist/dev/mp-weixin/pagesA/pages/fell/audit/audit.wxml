@@ -1,0 +1,1 @@
+<view><view class="operate"><block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index"><view><view class="item_box"><view class="item"><view class="flex"><view class="icon_title">{{item.emplo_name}}</view></view><view class="flex"><view>{{item.type_name}}</view></view></view></view></view></block></view></view>

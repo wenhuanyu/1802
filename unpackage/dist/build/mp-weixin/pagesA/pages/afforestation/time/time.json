@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "开工/完工时间",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-datetime-picker": "/uni_modules/uni-datetime-picker/components/uni-datetime-picker/uni-datetime-picker"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "报销审核",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-easyinput": "/uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput",
+    "uni-datetime-picker": "/uni_modules/uni-datetime-picker/components/uni-datetime-picker/uni-datetime-picker"
+  }
+}

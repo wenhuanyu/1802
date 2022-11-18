@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.flex_between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-column {
+  flex-direction: column;
+  justify-content: center;
+}
+.relative {
+  position: relative;
+}
+.bold {
+  font-weight: bold;
+}
+.fs24 {
+  font-size: 24rpx;
+}
+.fs26 {
+  font-size: 26rpx;
+}
+.fs28 {
+  font-size: 28rpx;
+}
+.fs30 {
+  font-size: 30rpx;
+}
+.fs32 {
+  font-size: 32rpx;
+}
+.mt-10 {
+  margin-top: 10rpx;
+}
+.mb-10 {
+  margin-bottom: 10rpx;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.ml-10 {
+  margin-left: 10rpx;
+}
+.ml-20 {
+  margin-left: 20rpx;
+}
+.mr-10 {
+  margin-right: 10rpx;
+}
+.mt-20 {
+  margin-top: 20rpx;
+}
+.mb-20 {
+  margin-bottom: 20rpx;
+}
+.mb-10 {
+  margin-bottom: 10rpx;
+}
+.ml-20 {
+  margin-left: 20rpx;
+}
+.mr-20 {
+  margin-right: 20rpx;
+}
+.mr-60 {
+  margin-right: 60rpx;
+}
+.ptb-n {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.cl {
+  color: #999999;
+}
+.picker {
+  width: 580rpx;
+  text-align: left;
+  height: 92.36rpx;
+  line-height: 92.36rpx;
+}
+.picker .uni-input {
+  width: 550rpx;
+}
+.good {
+  padding: 0 22.22rpx;
+}
+.group {
+  border-bottom: 0.69rpx solid #E0E0E0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.group .input {
+  margin: 0;
+  color: #999999;
+  font-size: 33.33rpx;
+  line-height: 92.36rpx;
+}
+
